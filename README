@@ -1,0 +1,14 @@
+# Interview Response Analysis
+This project provides a Python script to analyze transcribed interview responses. The script performs sentiment analysis using TextBlob and key phrase extraction using spaCy, and it provides an overall quality assessment of each response based on these analyses.
+
+
+## Features
+1. **Sentiment Analysis**: The script uses TextBlob to analyze the sentiment of each response,categorizing it as positive, negative, or neutral.
+2. **Key Phrase Extraction**: The script uses spaCy to extract key phrases from each response,identifying the most important concepts and entities mentioned.
+3. **Quality Assessment**: The script assigns a quality score to each response based on the sentiment analysis and key phrase extraction results. The quality score is a subjective measure that indicates the overall quality of the response.
+
+
+## Requirements
+1. **Python 3.x**: The script is written in Python 3.x and requires a compatible version to run.
+2. **TextBlob**: The script uses TextBlob for sentiment analysis.
+3. **spaCy**: The script uses spaCy for key phrase extraction.
